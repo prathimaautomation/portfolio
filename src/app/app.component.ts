@@ -7,7 +7,7 @@ import {environment} from '../environments/environment';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'myprofile';
+  title = 'portfolio';
   public env: string | undefined;
 
   ngOnInit(): void {

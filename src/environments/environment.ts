@@ -3,9 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   API_BASE: 'https://api.github.com/users/prathimaautomation',
-  env: 'prod'
+  env: 'dev'
 };
 
 /*

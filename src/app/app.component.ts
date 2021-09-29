@@ -8,7 +8,7 @@ import {environment} from '../environments/environment';
 })
 export class AppComponent implements OnInit{
   title = 'myprofile';
-  public env: any;
+  public env: string | undefined;
 
   ngOnInit(): void {
     this.env = environment.env;

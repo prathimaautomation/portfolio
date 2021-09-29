@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   API_BASE: 'https://api.github.com/users/prathimaautomation',
-  env: 'dev'
+  env: 'prod'
 };
 
 /*
